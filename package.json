@@ -1,0 +1,35 @@
+{
+  "name": "spaardoel-plant-app",
+  "version": "1.0.0",
+  "description": "🌱 Interactieve spaardoel app die kinderen helpt sparen door hun voortgang te visualiseren als een groeiende plant",
+  "private": true,
+  "scripts": {
+    "dev": "cd app && yarn dev",
+    "build": "cd app && yarn build",
+    "start": "cd app && yarn start",
+    "lint": "cd app && yarn lint",
+    "install-deps": "cd app && yarn install",
+    "db:migrate": "cd app && npx prisma migrate dev",
+    "db:seed": "cd app && yarn prisma db seed",
+    "db:studio": "cd app && npx prisma studio"
+  },
+  "keywords": [
+    "savings",
+    "kids",
+    "plant",
+    "visualization",
+    "nextjs",
+    "react",
+    "typescript"
+  ],
+  "author": "Marc",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ancproggrams/spaardoel-plant-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ancproggrams/spaardoel-plant-app/issues"
+  },
+  "homepage": "https://github.com/ancproggrams/spaardoel-plant-app#readme"
+}
